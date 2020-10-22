@@ -1,0 +1,22 @@
+# Flatpak Repo
+
+## Google Chrome
+
+```
+wget https://github.com/cho2/flatpak-repo/raw/master/gpg/flatpak.gpg
+flatpak remote-add chrome http://blog.kukuh.syafaat.id/flatpak-repo/google-chrome/repo --gpg-import=flatpak.gpg
+flatpak install chrome com.google.Chrome
+git clone git@github.com:cho2/eos-google-chrome-app.git
+cd eos-google-chrome-app
+chmod +x eos-google-chrome-app
+./eos-google-chrome-app
+```
+
+## Kstars
+
+```
+wget https://github.com/cho2/flatpak-repo/raw/master/gpg/flatpak.gpg
+flatpak remote-add kstars http://blog.kukuh.syafaat.id/flatpak-repo/kstars/repo --gpg-import=flatpak.gpg
+flatpak install kstars org.kde.kstars
+flatpak run kstars org.kde.kstars
+```
