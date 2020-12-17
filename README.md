@@ -18,5 +18,14 @@ chmod +x eos-google-chrome-app
 wget https://blog.kukuh.syafaat.id/flatpak-repo/gpg/flatpak.gpg
 flatpak remote-add kstars http://blog.kukuh.syafaat.id/flatpak-repo/kstars/repo --gpg-import=flatpak.gpg
 flatpak install kstars org.kde.kstars
-flatpak run kstars org.kde.kstars
+flatpak run org.kde.kstars
+```
+
+## Edge
+
+```
+wget https://blog.kukuh.syafaat.id/flatpak-repo/gpg/flatpak.gpg
+flatpak remote-add edge http://blog.kukuh.syafaat.id/flatpak-repo/edge/repo --gpg-import=flatpak.gpg
+flatpak install edge com.microsoft.Edge
+flatpak run com.microsoft.Edge
 ```
