@@ -21,11 +21,3 @@ flatpak install kstars org.kde.kstars
 flatpak run org.kde.kstars
 ```
 
-## Edge
-
-```
-wget https://blog.kukuh.syafaat.id/flatpak-repo/gpg/flatpak.gpg
-flatpak remote-add edge https://blog.kukuh.syafaat.id/flatpak-repo/edge/repo --gpg-import=flatpak.gpg
-flatpak install edge com.microsoft.Edge
-flatpak run com.microsoft.Edge
-```
