@@ -12,12 +12,3 @@ chmod +x eos-google-chrome-app
 ./eos-google-chrome-app
 ```
 
-## Kstars
-
-```
-wget https://blog.kukuh.syafaat.id/flatpak-repo/gpg/flatpak.gpg
-flatpak remote-add kstars https://blog.kukuh.syafaat.id/flatpak-repo/kstars/repo --gpg-import=flatpak.gpg
-flatpak install kstars org.kde.kstars
-flatpak run org.kde.kstars
-```
-
