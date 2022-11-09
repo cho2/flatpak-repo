@@ -1,14 +1,1 @@
-# Flatpak Repo
-
-## Chrome
-
-```
-wget https://blog.kukuh.syafaat.id/flatpak-repo/gpg/flatpak.gpg
-flatpak remote-add chrome https://blog.kukuh.syafaat.id/flatpak-repo/google-chrome/repo --gpg-import=flatpak.gpg
-flatpak install chrome com.google.Chrome
-git clone git@github.com:cho2/eos-google-chrome-app.git
-cd eos-google-chrome-app
-chmod +x eos-google-chrome-app
-./eos-google-chrome-app
-```
-
+archived
